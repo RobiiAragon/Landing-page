@@ -32,6 +32,10 @@ body {
     z-index: 1; /* Asegura que el texto esté encima de la imagen */
 }
 
+.register-section, .footer, .navbar {
+    z-index: 2; /* Para asegurar que el resto del contenido esté encima del carrusel */
+}
+
 .register-section {
     background: linear-gradient(135deg, #1a1a1a, #ff3366);
 }
