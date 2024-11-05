@@ -5,9 +5,14 @@ body {
 }
 
 .hero {
-    height: 100vh;
+    height: 60vh; /* Ajuste de la altura para no cubrir toda la pantalla */
     background: linear-gradient(135deg, #ff3366, #1a1a1a);
     color: #ffffff;
+}
+
+.carousel-item img {
+    height: 60vh; /* Ajuste de la altura de las imágenes */
+    object-fit: cover;
 }
 
 .carousel-caption {
