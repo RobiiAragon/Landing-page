@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aragon Games - Tienda de Videojuegos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="logo.jpg" alt="Aragon Games Logo" width="40" class="mr-2">
+            <span>Aragon Games</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#juegos">Juegos</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/profile.php?id=61565919586261">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-light d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h2 class="display-4 font-weight-bold">Bienvenido a Aragon Games</h2>
+            <p class="lead">Descubre la mejor selección de videojuegos y únete a nuestra comunidad de jugadores.</p>
+            <a href="#registro" class="btn btn-primary btn-lg mt-3">Regístrate Ahora</a>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="juegos" class="container my-5">
+        <h2 class="text-center mb-5">Explora Nuestros Juegos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center bg-dark text-light mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Acción</h3>
+                        <p class="card-text">Los títulos más emocionantes y llenos de adrenalina.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center bg-dark text-light mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Aventura</h3>
+                        <p class="card-text">Embárcate en grandes aventuras y descubre nuevos mundos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center bg-dark text-light mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Estrategia</h3>
+                        <p class="card-text">Desarrolla tus habilidades y lleva a tu equipo a la victoria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Section -->
+    <section id="registro" class="register-section text-center text-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Únete a Aragon Games</h2>
+            <p class="mb-4">Regístrate para recibir las últimas noticias y ofertas especiales.</p>
+            <form class="form-inline justify-content-center">
+                <input type="text" class="form-control mr-2 mb-2" placeholder="Nombre" required>
+                <input type="email" class="form-control mr-2 mb-2" placeholder="Correo Electrónico" required>
+                <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light text-center py-3">
+        <p>&copy; 2024 Aragon Games. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

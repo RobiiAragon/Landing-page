@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff3366, #1a1a1a);
+    color: #ffffff;
+}
+
+.register-section {
+    background: linear-gradient(135deg, #1a1a1a, #ff3366);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #ff3366;
+}
+
+.footer {
+    font-size: 14px;
+}
